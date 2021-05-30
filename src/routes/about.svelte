@@ -6,7 +6,7 @@
     <li><a href="https://www.npmjs.com/package/gh-pages">https://www.npmjs.com/package/gh-pages</a></li>
 </ul>
 
-<p> <a href="./">home</a> </p>
+<p> <a href="../">home</a> </p>
 
 <style>
     h1 {
