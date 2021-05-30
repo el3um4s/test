@@ -9,7 +9,7 @@
 </script>
 
 <script>
-    import experiments from "../../stores/projects.js";
+    import experiments from "../../../stores/projects.js";
     export let category = "-";
     export let project = "-";
 
@@ -18,7 +18,7 @@
 </script>
 
 <div class="slug">
-    {category}/{project}
+    {category}/{project}/<span class="index">index.svelte</span>
 
     {#if projectExist}
         <div>
@@ -42,5 +42,9 @@
     a {
         color: peachpuff;
         background-color: orangered;
+    }
+    .index {
+        color: lightgreen;
+        background-color: darkgreen;
     }
 </style>
