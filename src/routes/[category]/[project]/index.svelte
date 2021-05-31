@@ -1,4 +1,6 @@
 <script context="module">
+	export const prerender = true;
+
     export async function load({ page }) {
         let category = "-cat-";
         let project = "-proj-";
@@ -9,7 +11,7 @@
 </script>
 
 <script>
-    import experiments from "../../../stores/projects.js";
+    import experiments from "../../../stores/projects-list.js";
     export let category = "-";
     export let project = "-";
 
@@ -32,7 +34,7 @@
     {/if} 
 </div>
 
-<p> <a href="../">home</a> </p>
+<p> <a href="../../">home</a> </p>
 
 <style>
     .slug {
