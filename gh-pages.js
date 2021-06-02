@@ -8,7 +8,8 @@ publish(
 		user: {
 			name: 'Samuele de Tomasi', // update to use your name
 			email: 'el3um4s@gmail.com' // Update to use your email
-		}
+		},
+		dotfiles: true
 	},
 	() => {
 		console.log('Deploy Complete!');
